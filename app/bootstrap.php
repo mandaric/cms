@@ -1,5 +1,6 @@
 <?php
 
+// check request uri and load files
 switch($_SERVER['REQUEST_URI'])
 {
     case '/users':
